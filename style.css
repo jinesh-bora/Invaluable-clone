@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+/* Top part css start here */
+.top-main-div{
+    height: 15vh;
+    width: 100%;
+    background-color:#fffefe;
+    border-bottom: 1px solid gray;
+    display: flex;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+}
+.logo{
+    height: 50%;
+    width: 25%;
+}
+.logo img{
+    height: 60%;
+    width: 60%;
+    margin-left: 30px;
+    margin-top: 16px;
+}
+.input-group{
+    height: 15vh;
+    width: 45%;
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.form-group-special .input-group {
+    border: 1px solid #bac4c9;
+}
+input[type="text"] {
+  height: 40%;
+  width:100%;
+  padding: 10px;
+  border: 1px solid #BDC3C7;
+  background-color: #ecf0f1f3;
+  margin-bottom: 20px;
+  
+}
+.icons{
+    height: 15vh;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    font-size: 1rem;
+    margin-right: -30px;
+}
+.buttons{
+    height: 15vh;
+    width: 20%;
+    align-items: center;
+    gap: 0.2rem;
+}
+.in-button>button{
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    background-color: #ffffff19;
+    transition: all 0.3 ease;
+}   
+.in-button>button:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+
+}
+.sing-button>button{
+    padding: 10px 20px;
+    border: 2px solid black;
+    background-color: #fff;
+    font-size: 1.2rem;
+   cursor: pointer;
+   transition: all 0.3s ease;
+}
+.sing-button>button:hover{
+    color: #fff;
+    background-color: #000;
+}
+/* Top part css ends here */
+
+/* catagories css start here*/
+.catagories{
+    height: 6vh;
+    width: 100%;
+    background-color: #fffefe;
+    border-bottom: 1px solid;
+    display: flex;
+    align-items: center;
+    
+
+}
+.catogories-divs1,.catogories-divs2{
+    width: 10%;
+    text-align: center;
+    font-family:"indivisible", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#Auctions,#Auction-houses,#Artists{
+    color: #e70838;
+}
+
+.catogories-divs2:hover{
+    color:#e70838;
+    transform: scale(1.1);
+}
+/*Catogories css ends here */
