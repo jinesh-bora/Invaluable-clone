@@ -96,7 +96,6 @@ input[type="text"] {
     height: 6vh;
     width: 100%;
     background-color: #fffefe;
-    border-bottom: 1px solid;
     display: flex;
     align-items: center;
     
@@ -119,3 +118,91 @@ input[type="text"] {
     transform: scale(1.1);
 }
 /*Catogories css ends here */
+.scroll-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    border: 1px solid;
+}
+
+.scroll-images {
+      display: inline-block;
+      /* padding: 10px 0; */
+      animation: scrollLeft 60s linear infinite;
+}
+
+.scroll-images img {
+      height: 450px;
+      margin: 0 20px;
+      vertical-align: middle;
+}
+
+@keyframes scrollLeft {
+      0% {
+        transform: translateX(0%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+}
+.disply-main{
+    padding: 0 30px;
+    width: 100%;
+    height: 100vh;
+   
+}
+.tital-section{
+    font-family :Georgia, "Times New Roman", Times, serif;
+    font-size:30px;
+    margin-top: 40px;
+    margin-bottom: 20px;  
+    padding-bottom: 20px; 
+}
+.first-section-upcoming{
+    height:50%;
+    width:100%;
+    display: flex;
+    /* background-color: blueviolet; */
+    gap: 1rem;
+     border-top: 1px solid gray;
+}
+.first-img>img{
+    margin: 20px 0 20px 0;
+    height: 335px;
+    width: 250px;
+}
+.text-content{
+    font-family: indivisible, sans-serif;
+    font-size:16px;
+    margin-left: 15px;
+    margin-top: 20px;
+    width: 60%;
+    height: 40%;
+}
+.live-button>button{
+    margin-top:80px;
+    height:40px;
+    width:250px;
+    padding: 10px;
+    text-align: center;
+    background-color: #e4012a;
+    color: #ffffff; 
+    border: none;
+    transition: background-color 0.3s ease;
+}
+.live-button>button:hover{
+     background-color:rgb(177, 0, 33);
+}
+.img-main-div{
+    height: 60%;
+    width:100%;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: -1000px;
+}
+.first-section-imgs>img{
+    height:190px;
+    width:190px;
+}
